@@ -16,19 +16,38 @@
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
   
-    <meta property="og:type" content="website">
-<meta property="og:title" content="归档">
-<meta property="og:url" content="http://example.com/archives/2021/09/index.html">
+    <meta name="description" content="&#x2F;&#x2F; 全局变量声明区域   var fdata &#x3D; {     apiurl: &#39;https:&#x2F;&#x2F;hexo-circle-of-friends-api-exarfeie6-hh127.vercel.app&#x2F;api&#39;,     initnumber: 20, &#x2F;&#x2F;【可选】页面初始化展示文章数量     stepnumber: 10,&#x2F;&#x2F;【可选】每次加载增加的篇数     e">
+<meta property="og:type" content="website">
+<meta property="og:title" content="hexofriends">
+<meta property="og:url" content="http://example.com/hexofriends/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="&#x2F;&#x2F; 全局变量声明区域   var fdata &#x3D; {     apiurl: &#39;https:&#x2F;&#x2F;hexo-circle-of-friends-api-exarfeie6-hh127.vercel.app&#x2F;api&#39;,     initnumber: 20, &#x2F;&#x2F;【可选】页面初始化展示文章数量     stepnumber: 10,&#x2F;&#x2F;【可选】每次加载增加的篇数     e">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-02-24T12:40:43.000Z">
+<meta property="article:modified_time" content="2022-02-24T12:42:20.652Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary_large_image">
   
   
-  <title>归档 - Hexo</title>
+  <title>hexofriends - Hexo</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css" />
 
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4/github-markdown.min.css" />
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hint.css@2/hint.min.css" />
+
+  
+    
+    
+      
+      <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10/styles/github-gist.min.css" />
+    
+  
+
+  
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.css" />
+  
 
 
 <!-- 主题依赖的图标库，不要自行修改 -->
@@ -261,7 +280,7 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="归档">
+            <span class="h2" id="subtitle" title="hexofriends">
               
             </span>
 
@@ -285,25 +304,39 @@
               <div class="col-12 col-md-10 m-auto">
                 
 
-<div class="list-group">
-  <p class="h4">共计 4 篇文章</p>
-  <hr>
+<article class="page-content">
+  <!-- fontawesome图标的依赖，主题自带的不用加这行 -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css">
+
+<!-- 友链朋友圈样式 -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Rock-Candy-Tea/hexo-friendcircle-demo@main/css/akilar-SAO.css">
+
+<!-- 挂载友链朋友圈的容器 -->
+<div id="fcircleContainer"></div>
+
+<!-- 全局引入友链朋友圈配置项 -->
+<script>
+  // 全局变量声明区域
+  var fdata = {
+    apiurl: 'https://hexo-circle-of-friends-api-exarfeie6-hh127.vercel.app/api',
+    initnumber: 20, //【可选】页面初始化展示文章数量
+    stepnumber: 10,//【可选】每次加载增加的篇数
+    error_img: '/image/404.gif' //【可选】头像加载失败时默认显示的头像
+  }
+  //存入本地存储
+  localStorage.setItem("fdatalist",JSON.stringify(fdata))
+</script>
+
+<!-- 全局引入抓取方法 -->
+<script defer src="https://cdn.jsdelivr.net/gh/Rock-Candy-Tea/hexo-friendcircle-demo@main/js/fetch.js"></script>
+<!-- 局部引入页面元素生成方法 -->
+<script async src="https://cdn.jsdelivr.net/gh/Rock-Candy-Tea/hexo-friendcircle-demo@main/js/fcircle.js" charset="utf-8"></script>    <!-- js -->
+
+
+
+
   
-  
-    
-      
-      <p class="h5">2021</p>
-    
-    <a href="/2021091610484/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">从法律角度看待建设合同纠纷</span>
-      <time style="float: right;">09-16</time>
-    </a>
-  
-</div>
-
-
-
-
+</article>
 
               </div>
             </div>
@@ -426,6 +459,19 @@
   
 
 
+
+  
+    <script  src="https://cdn.jsdelivr.net/npm/tocbot@4/dist/tocbot.min.js" ></script>
+  
+  
+    <script  src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.js" ></script>
+  
+  
+    <script  src="https://cdn.jsdelivr.net/npm/anchor-js@4/anchor.min.js" ></script>
+  
+  
+    <script defer src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js" ></script>
+  
 
 
 
