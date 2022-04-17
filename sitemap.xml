@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://example.com/2022041620220416225718/</loc>
+    
+    <lastmod>2022-04-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/hexofriends/index.html</loc>
     
     <lastmod>2022-03-25</lastmod>
@@ -112,7 +121,7 @@
 
   <url>
     <loc>http://example.com/</loc>
-    <lastmod>2022-03-29</lastmod>
+    <lastmod>2022-04-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -120,14 +129,21 @@
   
   <url>
     <loc>http://example.com/tags/%E6%B3%95%E5%BE%8B%E5%AE%9E%E5%8A%A1/</loc>
-    <lastmod>2022-03-29</lastmod>
+    <lastmod>2022-04-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/%E6%B3%95%E5%BE%8B%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2022-03-29</lastmod>
+    <lastmod>2022-04-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/obsidian/</loc>
+    <lastmod>2022-04-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -136,7 +152,14 @@
   
   <url>
     <loc>http://example.com/categories/hexo/</loc>
-    <lastmod>2022-03-29</lastmod>
+    <lastmod>2022-04-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
+    <lastmod>2022-04-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

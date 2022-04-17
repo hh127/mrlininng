@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>测试1</title>
+    <link href="/2022041620220416225718/"/>
+    <url>/2022041620220416225718/</url>
+    
+    <content type="html"><![CDATA[<p>这是一篇测试</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>hexo博客搭建</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>obsidian</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>fluid主题魔改系列一</title>
     <link href="/2022030256867/"/>
     <url>/2022030256867/</url>
